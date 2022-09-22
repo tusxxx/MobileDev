@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">MobileDev</string>
-    <string name="vinne_pooh_poem">It’s a very funny thought that,\n if Bears were Bees, They’d build their nests at the bottom of trees.\n And that being so (if the Bees were Bears),\n We shouldn’t have to climb up all these stairs.</string>
+    <string name="ivanov_ivan">Иванов Иван ПИ-9000</string>
+    <string name="ok">OK</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="log">Log</string>
+    <string name="timber">timber</string>
+    <string name="black_text">Черный текст</string>
+    <string name="white_text">Белый текст</string>
+    <string name="big_size">Размер 24 SP</string>
+    <string name="low_size">Размер 8 SP</string>
+    <string name="yellow_background">Желтый фон</string>
+    <string name="white_background">Белый фон</string>
 </resources>
