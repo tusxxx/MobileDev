@@ -14,12 +14,23 @@ class Lab2Activity : AppCompatActivity() {
         binding = ActivityLab2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btLog.setOnClickListener {
-            Log.v("From EditText", binding.etText.text.toString())
-        }
+        setSaveButtonOnClickListener()
+    }
 
-        binding.btTimber.setOnClickListener {
-            Timber.v(binding.etText.text.toString())
+    private fun setSaveButtonOnClickListener() {
+        binding.btThirdTask.setOnClickListener {
+            saveText()
+        }
+    }
+
+    private fun saveText() {
+        if (binding.cbThirdTask.isChecked) {
+            binding.tvThirdTask.text = binding.etThirdTask.text
+            if (binding.pbThirdTask.progress == binding.pbThirdTask.max) {
+                binding.pbThirdTask.progress = 0
+            } else {
+                binding.pbThirdTask.progress += 10
+            }
         }
     }
 }

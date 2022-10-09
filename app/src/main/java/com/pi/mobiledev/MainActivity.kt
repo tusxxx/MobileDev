@@ -20,9 +20,5 @@ class MainActivity : AppCompatActivity() {
         binding.btLab2.setOnClickListener {
             startActivity(Intent(this, Lab2Activity::class.java))
         }
-
-        binding.btLab3.setOnClickListener {
-            startActivity(Intent(this, Lab3Activity::class.java))
-        }
     }
 }

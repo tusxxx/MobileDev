@@ -13,4 +13,7 @@
     <string name="low_size">Размер 8 SP</string>
     <string name="yellow_background">Желтый фон</string>
     <string name="white_background">Белый фон</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="need_save">Точно сохранить?</string>
+    <string name="save">Сохранить</string>
 </resources>
